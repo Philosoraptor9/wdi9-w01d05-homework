@@ -136,3 +136,7 @@ console.log("and so it begins");
 // 1. The things in an array are called 'elements'
 // 2. Arrays will stay in order unless told to do otherwise
 // 3. You could use an array to model items on a shopping list, students in a class, scores from a video game, etc.
+
+// B. Easy does it
+const quotes = ["I play to win the game", "If ya ain't first, your last", "Do or do not, there is no try"]
+console.log(quotes);
