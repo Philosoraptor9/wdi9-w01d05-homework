@@ -347,47 +347,59 @@ console.log("and so it begins");
 
 // K. Get Down and Dirty w/ Math.random
 // 1.
-let min = 1;
-let max = 10;
-const getRandomInteger = (min, max) => {
-    min = Math.ceil(min)
-    max = Math.floor(max)
-    return Math.floor(Math.random() * (max - min)) + min;
-}
-console.log(getRandomInteger(min, max))
+// let min = 1;
+// let max = 10;
+// const getRandomInteger = (min, max) => {
+//     min = Math.ceil(min)
+//     max = Math.floor(max)
+//     return Math.floor(Math.random() * (max - min)) + min;
+// }
+// console.log(getRandomInteger(min, max))
 // 2.
-let min = 10;
-let max = 100;
-const getRandomInteger2 = (min, max) => {
-  min = Math.ceil(min)
-  max = Math.floor(max)
-  return Math.floor(Math.random() * (max - min)) + min;
-}
-console.log(getRandomInteger2(min, max))
+// let min = 10;
+// let max = 100;
+// const getRandomInteger2 = (min, max) => {
+//   min = Math.ceil(min)
+//   max = Math.floor(max)
+//   return Math.floor(Math.random() * (max - min)) + min;
+// }
+// console.log(getRandomInteger2(min, max))
 // 3. 
-let min = 532;
-let max = 13267;
-const getRandomNumber = (min, max) => {
-  return Math.random() * (max - min) + min;
-}
-console.log(getRandomNumber(min, max));
+// let min = 532;
+// let max = 13267;
+// const getRandomNumber = (min, max) => {
+//   return Math.random() * (max - min) + min;
+// }
+// console.log(getRandomNumber(min, max));
 // 4.
-let min = 1;
-let max = 10;
-const getRandomNumber2 = (min, max) => {
-  return Math.random() * (max - min) + min;
-}
-console.log(getRandomNumber2(min, max));
+// let min = 1;
+// let max = 10;
+// const getRandomNumber2 = (min, max) => {
+//   return Math.random() * (max - min) + min;
+// }
+// console.log(getRandomNumber2(min, max));
 // 5.
 // max becomes arr.length - 1;
 // min becomes arr.length - (arr.length - 1);
-const quotes2 = ["I play to win the game", "If ya ain't first, your last", "Do or do not, there is no try", 
-"Sometimes I volunteer too much", "Things are impossible until they're not"]
+// const quotes2 = ["I play to win the game", "If ya ain't first, your last", "Do or do not, there is no try", 
+// "Sometimes I volunteer too much", "Things are impossible until they're not"]
 
-const getRandomElement = (array) => {
-  let randomIndex = (Math.floor(Math.random() * ((array.length - 1) - (array.length - (array.length - 1)))) 
-  + (array.length - (array.length - 1)));
-  return array[randomIndex];
-} 
+// const getRandomElement = (array) => {
+//   let randomIndex = (Math.floor(Math.random() * ((array.length - 1) - (array.length - (array.length - 1)))) 
+//   + (array.length - (array.length - 1)));
+//   return array[randomIndex];
+// } 
 
-console.log(getRandomElement(quotes2));
+// console.log(getRandomElement(quotes2));
+
+
+// OBJECTS
+
+// A. Make a user object
+// 1 - 2
+const user = {
+    name: "Worf",
+    email: "worf@theEnterprise.galaxy",
+    age: 105,
+    purchased: []
+  }
