@@ -403,3 +403,12 @@ const user = {
     age: 105,
     purchased: []
   }
+
+
+// B. Update the user
+// 1.
+user.email = "worf@klingonhomeworld.galaxy";
+// console.log(user.email);
+// 2. 
+user.age++
+// console.log(user.age);
