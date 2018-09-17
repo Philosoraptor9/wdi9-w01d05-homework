@@ -269,3 +269,15 @@ const calculateCube = (Number) => {
  return (Number) ** 3; 
 }
 console.log(calculateCube(5));
+
+// D. Is Vowel
+const isVowel = (x) => {
+  if (x === "a" || x === "e" || x === "i" || x === "o" || x === "u"){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isVowel("a"));
+console.log(isVowel("l"));
