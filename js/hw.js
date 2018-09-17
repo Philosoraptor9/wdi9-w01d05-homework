@@ -412,3 +412,8 @@ user.email = "worf@klingonhomeworld.galaxy";
 // 2. 
 user.age++
 // console.log(user.age);
+
+// C. Adding keys and values
+user.location = "The Starship Enterprise bridge";
+// console.log(user.location);
+
