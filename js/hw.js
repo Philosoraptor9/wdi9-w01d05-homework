@@ -151,13 +151,33 @@ console.log("and so it begins");
 // console.log(randomThings);
 
 // D. Changing Values
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 // 1. 
-console.log(ourClass[0]);
+// console.log(ourClass[0]);
 // 2.
-ourClass.pop();
-ourClass.push("Ocotocat");
-console.log(ourClass);
+// ourClass.pop();
+// ourClass.push("Ocotocat");
+// console.log(ourClass);
 // 3.
-ourClass.push("Cloud City");
-console.log(ourClass);
+// ourClass.push("Cloud City");
+// console.log(ourClass);
+
+// E. Mix It Up
+const myArray = [5, 10, 500, 20]
+// 1.
+myArray.push("Egon", "Bob Moses");
+console.log(myArray);
+// 2.
+myArray.shift();
+console.log(myArray);
+// 3.
+myArray.unshift("Bob Marley");
+console.log(myArray);
+// 4.
+myArray.pop();
+console.log(myArray);
+// 5.
+myArray.reverse()
+console.log(myArray);
+// Yes, this method mutates the array, which means changing the source element (array). 
+// It returns the array with elements in reverse order
