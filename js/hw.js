@@ -306,8 +306,22 @@ console.log("and so it begins");
 // console.log(charCountArr2);
 
 // G. Max of Three
-const maxOfThree = (num1, num2, num3) => {
-  return Math.max(num1, num2, num3)
-}
+// const maxOfThree = (num1, num2, num3) => {
+//   return Math.max(num1, num2, num3)
+// }
 
-console.log(maxOfThree(10, 12, 12));
+// console.log(maxOfThree(10, 12, 12));
+
+// H. Print Longest Word
+let wordsArray = ["polygamizing", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"];
+
+const printLongestWord = (wordsArray) => {
+  let longestWord = (" "); 
+    for (let i = 0; i < wordsArray.length; i++){
+      if (wordsArray[i].length > longestWord.length) {
+        longestWord = wordsArray[i];
+      }
+    } return longestWord;
+  }
+
+console.log(printLongestWord(wordsArray));
