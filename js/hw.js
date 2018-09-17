@@ -265,19 +265,30 @@ console.log("and so it begins");
 // console.log(printCool("Philip"));
 
 // C. Calculate Cube
-const calculateCube = (Number) => {
- return (Number) ** 3; 
-}
-console.log(calculateCube(5));
+// const calculateCube = (Number) => {
+//  return (Number) ** 3; 
+// }
+// console.log(calculateCube(5));
 
 // D. Is Vowel
-const isVowel = (x) => {
-  if (x === "a" || x === "e" || x === "i" || x === "o" || x === "u"){
-    return true;
-  } else {
-    return false;
-  }
+// const isVowel = (x) => {
+//   if (x === "a" || x === "e" || x === "i" || x === "o" || x === "u"){
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(isVowel("a"));
+// console.log(isVowel("l"));
+
+// E. Get Two Lengths
+let charCountArr = [];
+
+const getTwoLengths = (string1, string2) => {
+  charCountArr.push(string1.length)
+  charCountArr.push(string2.length);
 }
 
-console.log(isVowel("a"));
-console.log(isVowel("l"));
+getTwoLengths("hat" , "house");
+console.log(charCountArr);
