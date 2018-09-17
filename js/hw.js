@@ -327,8 +327,20 @@ console.log("and so it begins");
 // console.log(printLongestWord(wordsArray));
 
 // I. Transmorgify
-const transmorgify = (num1, num2, num3) => {
-  return (num1 * num2) ** num3;
+// const transmorgify = (num1, num2, num3) => {
+//   return (num1 * num2) ** num3;
+// }
+
+// console.log(transmorgify(5, 3, 2));
+
+// J. Reverse Word Order v2
+const reverseWordOrder = (String) => {
+  let reversed = " ";
+  for (let i = String.length - 1; i >= 0; i--){
+    reversed += String[i];
+  } return reversed;
 }
 
-console.log(transmorgify(5, 3, 2));
+console.log(reverseWordOrder("I think therefore I am"));
+// Do I need another variable to hold words in order to get the order reversed without reversing the letters?
+// If Charlotte is right, yes
