@@ -47,15 +47,24 @@ console.log("and so it begins");
 // console.log(48 == '48');
 
 // D. The Farm
-let animal = "cow" || "pig";
+// let animal = "cow" || "pig";
 
-let animalNoise = (animal) =>{
-if (animal == "cow"){
-    console.log("moooooooo");
-} else {
-    console.log("Hey! you're not a cow");
-}
-}
+// let animalNoise = (animal) =>{
+// if (animal == "cow"){
+//     console.log("moooooooo");
+// } else {
+//     console.log("Hey! you're not a cow");
+// }
+// }
 
-console.log(animalNoise("cow"));
-console.log(animalNoise("pig"));
+// console.log(animalNoise("cow"));
+// console.log(animalNoise("pig"));
+
+// DRIVER'S ED
+let personsAge = 15; 
+if (personsAge >= 16) {
+        console.log("Here are the keys");
+    } else {
+        console.log("You're too young to drive");
+    }
+
