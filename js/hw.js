@@ -11,3 +11,19 @@ console.log("and so it begins");
 // 5. Pseudocoding is just writing out the steps of the process you are trying to code in plain english. This helps
 // organize your thoughts before trying to translate them into code.
 // 6. 75-95% planning, 10-25% coding
+
+// B. Strings
+// 1.
+let firstVariable = "Hello World";
+firstVariable = 1000;
+let secondVariable = 1000;
+secondVariable = "Gotta get down on Friday";
+console.log(firstVariable);
+
+// 2.
+let yourName = "Philip";
+printName = (str) => {
+return("Hello my name is " + str);
+}
+
+console.log(printName(yourName));
