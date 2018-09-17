@@ -202,52 +202,59 @@ console.log("and so it begins");
 // }
 
 // H. What's in your closet?
-const kristynsCloset = [
-    "left shoe",
-    "cowboy boots",
-    "right sock",
-    "GA hoodie",
-    "green pants",
-    "yellow knit hat",
-    "marshmallow peeps"
-  ];
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "GA hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
   
-  // Thom's closet is more complicated. Check out this nested data structure!!
-  const thomsCloset = [
-    [
-      // These are Thom's shirts
-      "grey button-up",
-      "dark grey button-up",
-      "light blue button-up",
-      "blue button-up",
-    ],[
-      // These are Thom's pants
-      "grey jeans",
-      "jeans",
-      "PJs"
-    ],[
-      // Thom's accessories
-      "wool mittens",
-      "wool scarf",
-      "raybans"
-    ]
-  ];
+//   // Thom's closet is more complicated. Check out this nested data structure!!
+//   const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
 
 // 1. 
-console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!")
+// console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!")
 // 2.
-kristynsCloset.splice(6, 0, "raybans");
-console.log(kristynsCloset);
+// kristynsCloset.splice(6, 0, "raybans");
+// console.log(kristynsCloset);
 // 3.
-kristynsCloset[5] = "stained knit hat";
-console.log(kristynsCloset);
+// kristynsCloset[5] = "stained knit hat";
+// console.log(kristynsCloset);
 // 4 - 5  - 6
-console.log(thomsCloset[0][0]);
-console.log(thomsCloset[1][1]);
-console.log(thomsCloset[2][1]);
+// console.log(thomsCloset[0][0]);
+// console.log(thomsCloset[1][1]);
+// console.log(thomsCloset[2][1]);
 // 7.
-console.log("Thom is looking fierce in a " + (thomsCloset[0][0]) + ", " + (thomsCloset[1][1]) 
-+ " and a " + (thomsCloset[2][1]) + "!")
+// console.log("Thom is looking fierce in a " + (thomsCloset[0][0]) + ", " + (thomsCloset[1][1]) 
+// + " and a " + (thomsCloset[2][1]) + "!")
 // 8.
-thomsCloset[1][2] = "Footie Pajamas";
-console.log(thomsCloset[1][2]);
+// thomsCloset[1][2] = "Footie Pajamas";
+// console.log(thomsCloset[1][2]);
+
+
+// FUNCTIONS
+
+// A. Print Greeting
+// I read all the instructions
+
