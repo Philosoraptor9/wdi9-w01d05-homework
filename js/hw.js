@@ -183,10 +183,20 @@ console.log("and so it begins");
 // It returns the array with elements in reverse order
 
 // F. Biggie Smalls
-const myNumber = 7;
-// 1 -2
-if (myNumber < 100) {
-    console.log("little number")
+// const myNumber = 7;
+// 1 - 2
+// if (myNumber < 100) {
+//     console.log("little number")
+// } else {
+//     console.log("big number")
+// }
+
+// G. Monkey in the Middle
+// 1 - 3
+if (myNumber < 5) {
+    console.log("little number");
+} else if (myNumber > 10) {
+    console.log("big number");
 } else {
-    console.log("big number")
+    console.log("monkey");
 }
