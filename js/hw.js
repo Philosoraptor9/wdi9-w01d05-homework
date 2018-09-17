@@ -142,10 +142,22 @@ console.log("and so it begins");
 // console.log(quotes);
 
 // C. Accessing Elements
-const randomThings = [1, 10, "Hello", true]
+// const randomThings = [1, 10, "Hello", true]
 // 1. Access the first element in the array by using
-randomThings[0];
+// randomThings[0];
 // 2. 
-randomThings[2] = "World";
+// randomThings[2] = "World";
 // 3. 
-console.log(randomThings);
+// console.log(randomThings);
+
+// D. Changing Values
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// 1. 
+console.log(ourClass[0]);
+// 2.
+ourClass.pop();
+ourClass.push("Ocotocat");
+console.log(ourClass);
+// 3.
+ourClass.push("Cloud City");
+console.log(ourClass);
