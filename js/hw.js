@@ -313,15 +313,22 @@ console.log("and so it begins");
 // console.log(maxOfThree(10, 12, 12));
 
 // H. Print Longest Word
-let wordsArray = ["polygamizing", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"];
+// let wordsArray = ["polygamizing", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"];
 
-const printLongestWord = (wordsArray) => {
-  let longestWord = (" "); 
-    for (let i = 0; i < wordsArray.length; i++){
-      if (wordsArray[i].length > longestWord.length) {
-        longestWord = wordsArray[i];
-      }
-    } return longestWord;
-  }
+// const printLongestWord = (wordsArray) => {
+//   let longestWord = (" "); 
+//     for (let i = 0; i < wordsArray.length; i++){
+//       if (wordsArray[i].length > longestWord.length) {
+//         longestWord = wordsArray[i];
+//       }
+//     } return longestWord;
+//   }
 
-console.log(printLongestWord(wordsArray));
+// console.log(printLongestWord(wordsArray));
+
+// I. Transmorgify
+const transmorgify = (num1, num2, num3) => {
+  return (num1 * num2) ** num3;
+}
+
+console.log(transmorgify(5, 3, 2));
