@@ -193,10 +193,61 @@ console.log("and so it begins");
 
 // G. Monkey in the Middle
 // 1 - 3
-if (myNumber < 5) {
-    console.log("little number");
-} else if (myNumber > 10) {
-    console.log("big number");
-} else {
-    console.log("monkey");
-}
+// if (myNumber < 5) {
+//     console.log("little number");
+// } else if (myNumber > 10) {
+//     console.log("big number");
+// } else {
+//     console.log("monkey");
+// }
+
+// H. What's in your closet?
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+// 1. 
+console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!")
+// 2.
+kristynsCloset.splice(6, 0, "raybans");
+console.log(kristynsCloset);
+// 3.
+kristynsCloset[5] = "stained knit hat";
+console.log(kristynsCloset);
+// 4 - 5  - 6
+console.log(thomsCloset[0][0]);
+console.log(thomsCloset[1][1]);
+console.log(thomsCloset[2][1]);
+// 7.
+console.log("Thom is looking fierce in a " + (thomsCloset[0][0]) + ", " + (thomsCloset[1][1]) 
++ " and a " + (thomsCloset[2][1]) + "!")
+// 8.
+thomsCloset[1][2] = "Footie Pajamas";
+console.log(thomsCloset[1][2]);
