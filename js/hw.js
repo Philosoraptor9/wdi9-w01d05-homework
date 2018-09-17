@@ -60,11 +60,29 @@ console.log("and so it begins");
 // console.log(animalNoise("cow"));
 // console.log(animalNoise("pig"));
 
-// DRIVER'S ED
-let personsAge = 15; 
-if (personsAge >= 16) {
-        console.log("Here are the keys");
-    } else {
-        console.log("You're too young to drive");
-    }
+// E. Driver's Ed
+// let personsAge = 15; 
+// if (personsAge >= 16) {
+//         console.log("Here are the keys");
+//     } else {
+//         console.log("You're too young to drive");
+//     }
 
+
+// LOOPS
+
+// A. The Basics
+// 1. 
+for (let i = 1; i <=10; i++){
+    console.log(i)
+}
+// 2.
+for (let i = 10; i <=400; i++){
+    console.log(i)
+}
+// 3.
+for (let i = 12; i <= 4000; i++){
+    if (i % 3 === 0){
+    console.log(i)
+}
+}
