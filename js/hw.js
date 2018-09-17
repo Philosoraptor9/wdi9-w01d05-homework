@@ -294,13 +294,20 @@ console.log("and so it begins");
 // console.log(charCountArr);
 
 // F. Get Multiple Lengths
-let charCountArr2 = [];
-let stringArray = ["football", "pillow", "green tea"];
-const getMultipleLengths = (stringArray) => {
-  for (let i = 0; i < stringArray.length; i++){
-    charCountArr2.push(stringArray[i].length);
-  }
+// let charCountArr2 = [];
+// let stringArray = ["football", "pillow", "green tea"];
+// const getMultipleLengths = (stringArray) => {
+//   for (let i = 0; i < stringArray.length; i++){
+//     charCountArr2.push(stringArray[i].length);
+//   }
+// }
+
+// getMultipleLengths(stringArray);
+// console.log(charCountArr2);
+
+// G. Max of Three
+const maxOfThree = (num1, num2, num3) => {
+  return Math.max(num1, num2, num3)
 }
 
-getMultipleLengths(stringArray);
-console.log(charCountArr2);
+console.log(maxOfThree(10, 12, 12));
