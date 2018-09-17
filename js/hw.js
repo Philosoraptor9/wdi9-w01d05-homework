@@ -259,7 +259,13 @@ console.log("and so it begins");
 // I read all the instructions
 
 // B. Print Cool
-const printCool = (name) => {
-    console.log(`${name}`, "is cool!");
+// const printCool = (name) => {
+//     console.log(`${name}`, "is cool!");
+// }
+// console.log(printCool("Philip"));
+
+// C. Calculate Cube
+const calculateCube = (Number) => {
+ return (Number) ** 3; 
 }
-console.log(printCool("Philip"));
+console.log(calculateCube(5));
