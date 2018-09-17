@@ -109,13 +109,22 @@ console.log("and so it begins");
 
 // D. Savings Account
 // 1.
-let bank_account = 0;
-for (let i = 1; i <= 10; i++){
-    bank_account += (i)
-}
+// let bank_account = 0;
+// for (let i = 1; i <= 10; i++){
+//     bank_account += (i)
+// }
 // 2.
-for (let j = 1; j <= 100; j++){
-    bank_account += (j * 2)
-}
+// for (let j = 1; j <= 100; j++){
+//     bank_account += (j * 2)
+// }
 
-console.log(bank_account)
+// console.log(bank_account)
+
+// E. Multiples of 3 & 5
+let threeAndFive = 0;
+for (let i = 1; i <= 1000; i++){
+    if (i % 3 === 0 || i % 5 === 0){
+        threeAndFive += (i);
+    }
+}
+console.log(threeAndFive);
