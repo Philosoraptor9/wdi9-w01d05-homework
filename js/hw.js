@@ -283,12 +283,24 @@ console.log("and so it begins");
 // console.log(isVowel("l"));
 
 // E. Get Two Lengths
-let charCountArr = [];
+// let charCountArr = [];
 
-const getTwoLengths = (string1, string2) => {
-  charCountArr.push(string1.length)
-  charCountArr.push(string2.length);
+// const getTwoLengths = (string1, string2) => {
+//   charCountArr.push(string1.length)
+//   charCountArr.push(string2.length);
+// }
+
+// getTwoLengths("hat" , "house");
+// console.log(charCountArr);
+
+// F. Get Multiple Lengths
+let charCountArr2 = [];
+let stringArray = ["football", "pillow", "green tea"];
+const getMultipleLengths = (stringArray) => {
+  for (let i = 0; i < stringArray.length; i++){
+    charCountArr2.push(stringArray[i].length);
+  }
 }
 
-getTwoLengths("hat" , "house");
-console.log(charCountArr);
+getMultipleLengths(stringArray);
+console.log(charCountArr2);
