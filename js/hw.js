@@ -97,11 +97,25 @@ console.log("and so it begins");
 
 // C. Give Me Five
 // 1 - 2
-for (let i = 1; i <= 100; i++){
-    if (i % 5 === 0){
-        console.log(`I found a ${i}. High Five!`)
-    }
-    if (i % 3 === 0){
-        console.log(`I found a ${i}. Three is a crowd.`)
-    }
+// for (let i = 1; i <= 100; i++){
+//     if (i % 5 === 0){
+//         console.log(`I found a ${i}. High Five!`)
+//     }
+//     if (i % 3 === 0){
+//         console.log(`I found a ${i}. Three is a crowd.`)
+//     }
+// }
+
+
+// D. Savings Account
+// 1.
+let bank_account = 0;
+for (let i = 1; i <= 10; i++){
+    bank_account += (i)
 }
+// 2.
+for (let j = 1; j <= 100; j++){
+    bank_account += (j * 2)
+}
+
+console.log(bank_account)
