@@ -29,19 +29,33 @@ console.log("and so it begins");
 // console.log(printName(yourName));
 
 // C. Booleans
-const a = 4;
-const b = 53;
-const c = 57;
-const d = 16;
-const e = 'Kevin';
+// const a = 4;
+// const b = 53;
+// const c = 57;
+// const d = 16;
+// const e = 'Kevin';
 
-console.log(a < b);
-console.log(c > d);
-console.log('Name' == 'Name');
-console.log(true != false);
-console.log(false == false == false == false == false == false == true);
-console.log(false == false)
-console.log(e == 'Kevin');
-console.log(a < b < c);
-console.log(a == a != d);
-console.log(48 == '48');
+// console.log(a < b);
+// console.log(c > d);
+// console.log('Name' == 'Name');
+// console.log(true != false);
+// console.log(false == false == false == false == false == false == true);
+// console.log(false == false)
+// console.log(e == 'Kevin');
+// console.log(a < b < c);
+// console.log(a == a != d);
+// console.log(48 == '48');
+
+// D. The Farm
+let animal = "cow" || "pig";
+
+let animalNoise = (animal) =>{
+if (animal == "cow"){
+    console.log("moooooooo");
+} else {
+    console.log("Hey! you're not a cow");
+}
+}
+
+console.log(animalNoise("cow"));
+console.log(animalNoise("pig"));
