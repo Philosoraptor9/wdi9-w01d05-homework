@@ -258,3 +258,8 @@ console.log("and so it begins");
 // A. Print Greeting
 // I read all the instructions
 
+// B. Print Cool
+const printCool = (name) => {
+    console.log(`${name}`, "is cool!");
+}
+console.log(printCool("Philip"));
