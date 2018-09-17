@@ -138,5 +138,14 @@ console.log("and so it begins");
 // 3. You could use an array to model items on a shopping list, students in a class, scores from a video game, etc.
 
 // B. Easy does it
-const quotes = ["I play to win the game", "If ya ain't first, your last", "Do or do not, there is no try"]
-console.log(quotes);
+// const quotes = ["I play to win the game", "If ya ain't first, your last", "Do or do not, there is no try"]
+// console.log(quotes);
+
+// C. Accessing Elements
+const randomThings = [1, 10, "Hello", true]
+// 1. Access the first element in the array by using
+randomThings[0];
+// 2. 
+randomThings[2] = "World";
+// 3. 
+console.log(randomThings);
