@@ -163,21 +163,30 @@ console.log("and so it begins");
 // console.log(ourClass);
 
 // E. Mix It Up
-const myArray = [5, 10, 500, 20]
+// const myArray = [5, 10, 500, 20]
 // 1.
-myArray.push("Egon", "Bob Moses");
-console.log(myArray);
+// myArray.push("Egon", "Bob Moses");
+// console.log(myArray);
 // 2.
-myArray.shift();
-console.log(myArray);
+// myArray.shift();
+// console.log(myArray);
 // 3.
-myArray.unshift("Bob Marley");
-console.log(myArray);
+// myArray.unshift("Bob Marley");
+// console.log(myArray);
 // 4.
-myArray.pop();
-console.log(myArray);
+// myArray.pop();
+// console.log(myArray);
 // 5.
-myArray.reverse()
-console.log(myArray);
+// myArray.reverse()
+// console.log(myArray);
 // Yes, this method mutates the array, which means changing the source element (array). 
 // It returns the array with elements in reverse order
+
+// F. Biggie Smalls
+const myNumber = 7;
+// 1 -2
+if (myNumber < 100) {
+    console.log("little number")
+} else {
+    console.log("big number")
+}
