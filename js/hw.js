@@ -89,8 +89,19 @@ console.log("and so it begins");
 
 // B. Get Even
 // 1 - 2
+// for (let i = 1; i <= 100; i++){
+//     if (i % 2 === 0){
+//         console.log(`${i} "<-- is an even number"`)
+//     }
+// }
+
+// C. Give Me Five
+// 1 - 2
 for (let i = 1; i <= 100; i++){
-    if (i % 2 === 0){
-        console.log(`${i} "<-- is an even number"`)
+    if (i % 5 === 0){
+        console.log(`I found a ${i}. High Five!`)
+    }
+    if (i % 3 === 0){
+        console.log(`I found a ${i}. Three is a crowd.`)
     }
 }
