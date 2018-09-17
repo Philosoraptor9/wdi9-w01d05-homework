@@ -121,10 +121,18 @@ console.log("and so it begins");
 // console.log(bank_account)
 
 // E. Multiples of 3 & 5
-let threeAndFive = 0;
-for (let i = 1; i <= 1000; i++){
-    if (i % 3 === 0 || i % 5 === 0){
-        threeAndFive += (i);
-    }
-}
-console.log(threeAndFive);
+// let threeAndFive = 0;
+// for (let i = 1; i <= 1000; i++){
+//     if (i % 3 === 0 || i % 5 === 0){
+//         threeAndFive += (i);
+//     }
+// }
+// console.log(threeAndFive);
+
+
+// ARRAYS AND CONTROL FLOW
+
+// A. Talk About It
+// 1. The things in an array are called 'elements'
+// 2. Arrays will stay in order unless told to do otherwise
+// 3. You could use an array to model items on a shopping list, students in a class, scores from a video game, etc.
