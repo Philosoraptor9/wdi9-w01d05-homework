@@ -73,16 +73,24 @@ console.log("and so it begins");
 
 // A. The Basics
 // 1. 
-for (let i = 1; i <=10; i++){
-    console.log(i)
-}
+// for (let i = 1; i <=10; i++){
+//     console.log(i)
+// }
 // 2.
-for (let i = 10; i <=400; i++){
-    console.log(i)
-}
+// for (let i = 10; i <=400; i++){
+//     console.log(i)
+// }
 // 3.
-for (let i = 12; i <= 4000; i++){
-    if (i % 3 === 0){
-    console.log(i)
-}
+// for (let i = 12; i <= 4000; i++){
+//     if (i % 3 === 0){
+//     console.log(i)
+// }
+// }
+
+// B. Get Even
+// 1 - 2
+for (let i = 1; i <= 100; i++){
+    if (i % 2 === 0){
+        console.log(`${i} "<-- is an even number"`)
+    }
 }
